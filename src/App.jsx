@@ -53,6 +53,20 @@ function App() {
       });
   };
 
+  // async/await 版
+  // const handleClick = async () => {
+  //   setIsLoading(true);
+  //   setError(null);
+  //   try {
+  //     const quote = await fetchRandomQuote();
+  //     setQuote(quote);
+  //   } catch (error) {
+  //     setError(error);
+  //   } finally {
+  //     setIsLoading(false);
+  //   }
+  // }
+
   return (
     <div className="bg-gray-100 min-h-screen pt-16 pb-8 space-y-8">
       {/* Hero Section */}
