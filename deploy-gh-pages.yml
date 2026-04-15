@@ -15,7 +15,7 @@ permissions:
   pages: write
   id-token: write
 
-# 1 つの同時デプロイメントを可能にする
+# 1つの同時デプロイメントを可能にする
 concurrency:
   group: "pages"
   cancel-in-progress: true
